@@ -1,3 +1,3 @@
-const packageinfo = require('./packageinfo');
-const data = packageinfo.data();
+const getpackageinfo = require('./getpackageinfo');
+const data = getpackageinfo.data();
 console.log(data);
