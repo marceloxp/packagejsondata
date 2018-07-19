@@ -5,5 +5,5 @@
   "main": "packagejsondata.js",
   "repository": "git@github.com:marceloxp/packagejsondata.git",
   "author": "MarceloXP <marceloxp@gmail.com>",
-  "license": "LGPL3"
+  "license": "GPL-3.0"
 }
