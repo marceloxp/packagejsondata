@@ -1,6 +1,6 @@
 {
   "name": "@marceloxp/getpackageinfo",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Get basic info from package.json",
   "main": "getpackageinfo.js",
   "repository": "git@github.com:marceloxp/getpackageinfo.git",
