@@ -1,3 +1,3 @@
-const getpackageinfo = require('./getpackageinfo');
-const data = getpackageinfo.data();
+const packagejsondata = require('./packagejsondata');
+const data = packagejsondata.data();
 console.log(data);
