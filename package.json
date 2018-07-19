@@ -1,5 +1,5 @@
 {
-  "name": "getpackageinfo",
+  "name": "@marceloxp/getpackageinfo",
   "version": "1.0.0",
   "description": "Get basic info from package.json",
   "main": "getpackageinfo.js",
