@@ -1,0 +1,9 @@
+{
+  "name": "packageinfo",
+  "version": "1.0.0",
+  "description": "Get basic info from package.json",
+  "main": "packageinfo.js",
+  "repository": "git@github.com:marceloxp/packageinfo.git",
+  "author": "MarceloXP <marceloxp@gmail.com>",
+  "license": "LGPL3"
+}
