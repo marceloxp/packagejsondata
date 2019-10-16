@@ -7,6 +7,10 @@
 
 `yarn add packagejsondata --dev`
 
+`npm install packagejsondata --save`
+
+`npm install packagejsondata --save-dev`
+
 ## Usage
 
 ### nodejs
