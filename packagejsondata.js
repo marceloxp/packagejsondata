@@ -3,7 +3,7 @@ var semver = require('semver');
 
 const getPackageInfo = (p_package_folder) =>
 {
-	const package_json = (p_package_folder) ? p_package_folder + '/package.json' : 'package.json';
+	const package_json = (p_package_folder) ? p_package_folder.concat('/package.json') : 'package.json';
 	const json         = JSON.parse(fs.readFileSync(package_json));
 	const result       = 
 	{
@@ -14,26 +14,26 @@ const getPackageInfo = (p_package_folder) =>
 	return result;
 };
 
-exports.data = () =>
+exports.data = (p_package_folder) =>
 {
-	const result = getPackageInfo();
+	const result = getPackageInfo(p_package_folder);
 	return result;
 };
 
-exports.name = () =>
+exports.name = (p_package_folder) =>
 {
-	const result = getPackageInfo();
+	const result = getPackageInfo(p_package_folder);
 	return result.name;
 };
 
-exports.version = () =>
+exports.version = (p_package_folder) =>
 {
-	const result = getPackageInfo();
+	const result = getPackageInfo(p_package_folder);
 	return result.version;
 };
 
-exports.next = () =>
+exports.next = (p_package_folder) =>
 {
-	const result = getPackageInfo();
+	const result = getPackageInfo(p_package_folder);
 	return result.next;
 };
